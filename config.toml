@@ -1,0 +1,3 @@
+#server_addr = "134.209.174.208:3333" # v2.stratum.braiins.com
+server_addr = "0.0.0.0:34254"
+listen_addr = "0.0.0.0:3333"
