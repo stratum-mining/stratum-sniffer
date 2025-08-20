@@ -11,7 +11,7 @@ async fn main() -> anyhow::Result<()> {
 
     let args = cli::Args::parse();
     let config = config::Config::from_file(args.config)?;
-    let sniffer = Sniffer::new("", config.listen_addr, config.server_addr, false, vec![]);
+    let sniffer = Sniffer::new("", config.listen_addr, config.server_addr, false, vec![], None);
     info!("Starting sniffer on {}", config.listen_addr);
     sniffer.start();
 
