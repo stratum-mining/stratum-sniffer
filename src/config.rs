@@ -8,6 +8,7 @@ use toml;
 pub struct Config {
     pub server_addr: SocketAddr,
     pub listen_addr: SocketAddr,
+    pub sv2: bool,
 }
 
 impl Config {
