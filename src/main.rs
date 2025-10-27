@@ -22,7 +22,8 @@ async fn main() -> anyhow::Result<()> {
                 vec![],
                 None,
             );
-            info!("Starting sniffer on {}", config.listen_addr);
+            info!("Starting Sv2 sniffer on {}", config.listen_addr);
+            info!("Pubkey: 9auqWEzQDVyd2oe1JVGFLMLHZtCo2FFqZwtKA5gd9xbuEu7PH72");
             sniffer.start();
         }
         false => {

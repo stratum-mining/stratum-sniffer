@@ -16,6 +16,8 @@ Run the sniffer with a configuration file:
 cargo run -- --config config.toml
 ```
 
+Make sure that when connecting some Sv2 application to `listen_addr`, you should use pubkey `9auqWEzQDVyd2oe1JVGFLMLHZtCo2FFqZwtKA5gd9xbuEu7PH72`.
+
 ## License
 
 This software is licensed under Apache 2.0 or MIT, at your option.
